@@ -1,3 +1,5 @@
+'use strict';
+
 const express = require('express');
 require('dotenv').config();
 // import in the json
@@ -16,31 +18,24 @@ app.get('/', (request, response) => response.send(jsonData));
  * Create class for generating more structured data
  */
 class ProgLang {
-  constructor(title, dateCreated, description, imageUrl) {
-    this.title = title;
-    this.dateCreated = dateCreated;
-    this.description = description;
-    this.imageUrl = imageUrl;
+  constructor(oneObject) {
+    this.title = oneObject.title;
+    this.dateCreated = oneObject.dateCreated;
+    this.description = oneObject.description;
+    this.imageUrl = oneObject.imageUrl;
   }
 }
 
-//const testLang = new ProgLang('Python', '1991', 'Python is an interpreted high-level general-purpose programming language. Its design philosophy emphasizes code readability with its use of significant indentation.', 'image');
-//console.log(testLang);
-let langs = [];
+const langs = jsonData.map((oneObject) => (
+  new ProgLang(oneObject)
+));
 
-try {
-  jsonData.map((lang) => {
-    const newObj = new ProgLang(
-      lang.title,
-      lang.dateCreated,
-      lang.description,
-      lang.imageUrl
-    );
-    langs.push(newObj);
-  });
-} catch {
-  console.log('data error');
-}
+app.get('/objects', (request, response) => {
+  try {
+    response.status('200').send(langs);
+  } catch {
+    response.status('404').send('Languages not found');
+  }
+});
 
-//console.log(langs);
-app.get('/objects', (request, response) => response.send(langs));
+app.get('*', (req, res) => res.status('404').send('Not found'));
