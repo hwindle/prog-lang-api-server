@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "title": "Python",
+        "dateCreated": "1991",
+        "description": "Python is an interpreted high-level general-purpose programming language. Its design philosophy emphasizes code readability with its use of significant indentation.",
+        "imageUrl": "https://spng.pngfind.com/pngs/s/62-626208_python-logo-png-transparent-background-python-logo-png.png"
+    },
+    {
+        "id": 2,
+        "title": "Java",
+        "dateCreated": "1995",
+        "description": "Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRdobenTw01ao9jWdCO0lP44GML7IEQ-aP6P2zRIOgtuSCSZoN_FK713JG821XqSE01qA&usqp=CAU"
+    },
+    {
+        "id": 3,
+        "title": "Javascript",
+        "dateCreated": "1995",
+        "description": "JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm.",
+        "imageUrl": "https://www.freepnglogos.com/uploads/javascript-png/javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png"
+    },
+    {
+        "id": 4,
+        "title": "C#",
+        "dateCreated": "2000",
+        "description": "C# is a general-purpose, multi-paradigm programming language. C# encompasses static typing, strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented, and component-oriented programming disciplines.",
+        "imageUrl": "https://w7.pngwing.com/pngs/340/226/png-transparent-purple-and-white-logo-c-computer-programming-software-development-programmer-marklogic-coder-miscellaneous-purple-class.png"
+    },
+    {
+        "id": 5,
+        "title": "PHP",
+        "dateCreated": "1995",
+        "description": "PHP is a general-purpose scripting language geared towards web development. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1994. The PHP reference implementation is now produced by The PHP Group.",
+        "imageUrl": "https://banner2.cleanpng.com/20180823/wjr/kisspng-brand-php-logo-computer-file-product-5b7ef50d2daba6.9252196515350469251871.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Swift",
+        "dateCreated": "2014",
+        "description": "Swift is a general-purpose, multi-paradigm, compiled programming language developed by Apple Inc. and the open-source community.",
+        "imageUrl": "https://developer.apple.com/swift/images/swift-og.png"
+    },
+    {
+        "id": 7,
+        "title": "Ruby",
+        "dateCreated": "1993",
+        "description": "Ruby is an interpreted, high-level, general-purpose programming language. Ruby is dynamically typed and uses garbage collection and just-in-time compilation and it is most used for building web applications.",
+        "imageUrl": "https://w7.pngwing.com/pngs/263/95/png-transparent-red-gemstone-web-development-ruby-on-rails-programming-language-programmer-ruby-angle-computer-science-computer-programming-thumbnail.png"
+    },
+    {
+        "id": 8,
+        "title": "Kotlin",
+        "dateCreated": "2011",
+        "description": " Kotlin is a general purpose, free, open source, statically typed “pragmatic” programming language initially designed for the JVM (Java Virtual Machine) and Android that combines object-oriented and functional programming features.",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png"
+    },
+    {
+        "id": 9,
+        "title": "C++",
+        "dateCreated": "1983",
+        "description": "C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or C with Classes.",
+        "imageUrl": "https://e7.pngegg.com/pngimages/46/626/png-clipart-c-logo-the-c-programming-language-computer-icons-computer-programming-source-code-programming-miscellaneous-template.png"
+    },
+    {
+        "id": 10,
+        "title": "C",
+        "dateCreated": "1972",
+        "description": "C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system. By design, C provides constructs that map efficiently to typical machine instructions.",
+        "imageUrl": "https://pngimage.net/wp-content/uploads/2018/06/letter-c-logo-png-1.png"
+    }
+]
